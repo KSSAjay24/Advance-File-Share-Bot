@@ -13,8 +13,8 @@ def is_enabled(value, default):
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '29877245'))
-API_HASH = environ.get('API_HASH', '29877245') 
-BOT_TOKEN = environ.get('BOT_TOKEN', "6845049714:AAFN5lUwqJMOoxBFHds3eg_e0S_RK9xOx50") 
+API_HASH = environ.get('API_HASH', 'f580b015eeec1f8cfb524210f426dcfa') 
+BOT_TOKEN = environ.get('BOT_TOKEN', "6847032789:AAEIPDTnI111LyvL020L8_VJFTasZzQp4s0") 
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -43,8 +43,8 @@ REQ_CHANNEL = int(REQ_CHANNEL) if REQ_CHANNEL and id_pattern.search(REQ_CHANNEL)
 JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DATABASE_URI)
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002004205979'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'cinemapicholufilessbot')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002004205979')) 
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'cineepichoolufileesbot')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
